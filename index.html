@@ -2,30 +2,41 @@
     <head>
         <title>COMPS TE A</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            @media screen and (max-width: 768px) 
-            {
-                *{
-                    font-size:1.8vw;
-                }
-            }
-            i{
-                color: blue;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
         <div>
             <hr><h1>Important Notices - <i>Comps TE A</i></h1><hr>
             <p>If any new update or modification you have and don't see here please inform us - Pratik or Neel</p>
-            <p><b>Last Updated on:</b> <i>17 April, 2020 (Friday) at 9:30 PM</i></p>
+            <p><b>Last Updated on:</b> <i>18 April, 2020 at 4:15 PM</i></p><hr>
+            <pre>
+<u>INDEX</u>
+
+Test Status:
+<a href="#mltt2">ML - 1/5</a>
+<a href="#spcctt2">SPCC - 1/5</a>
+<a href="#csstt2">CSS - 0/5</a>
+<a href="#dwmtt2">DWM - 0/5</a>
+<a href="#sett2">SE - 0/5</a>
+
+Assignment Status:
+<a href="#mlassign">ML - 1</a>
+<a href="#spccassign">SPCC - 1</a>
+<a href="#cssassign">CSS - 0</a>
+<a href="#dwmassign">DWM - 0</a>
+<a href="#seassign">SE - 0</a>
+
+🔗Resourses : <a href="https://drive.google.com/folderview?id=1ee4_PHmys7Kvs_DN1u-HapE9Eq0exZOO" target="_blank">Click Here</a>
+            </pre>
             <hr>
         </div>
 
         <div>
             <h3><u>TT2 Notices</u></h3>
             <ul>
-                <li>ML 
+                <li id="mltt2">ML 
                     <ul>
                         <li> Test Live Details
                             <ul>
@@ -35,15 +46,19 @@
                                     <li>Word document or Scanned pdf of handwritten pages</li>
                                     <li>Status: &#10004;</li>
                                 </ul>
-                                <li><b>Assignment 2</b></li>
-                                <li><b>Assignment 3</b></li>
+                                <li><b>Assignment 2 & 3</b> - <i><b>Hard Clustering & SVM</b> - Tuesday, &#9658;21th April 2020 - 11 AM to 1 PM</i>  </li>
+                                <ul>
+                                    <li>Document format (No google form)</li>
+                                    <li>Word document or Scanned pdf of handwritten pages</li>
+                                    <li>Status: Pending</li>
+                                </ul>
                                 <li><b>Assignment 4</b></li>
                                 <li><b>Assignment 5</b></li>
                             </ul>
                         </li>
                         <li>Instructions
                             <ul>
-                                <li>Google Form Link :: </li>
+                                <li>Upload on MS Teams & Google Classroom Both</li>
                                 <li>5 Assignments for 5 Marks Each</li>
                                 <li>1 to 2 Questions Per Assignment</li>
                                 <li>1 Hour Test</li>
@@ -53,16 +68,17 @@
                         </li>
                     </ul>
                 </li>
-                <li>SPCC</li>
+                <li id="spcctt2">SPCC
                     <ul>
                         <li> Test Live Details
                             <ul>
-                                <li><b>Assignment 1</b> - <i><b>(SP) Macro Processors - Saturday, &#9658;18th April 2020 - 2:00 PM to 2:30 PM</i> </li>
+                                <li><b>Assignment 1</b> - <i><b>(SP) Macro Processors</b> - Saturday, &#9658;18th April 2020 - 2:00 PM to 2:30 PM</i> </li>
                                 <ul>
                                     <li>Not from Question bank</li>
                                     <li>Document format (No google form)</li>
                                     <li>Word document or Scanned pdf of handwritten pages</li>
                                     <li>Screen shots are not allowed</li>
+                                    <li>Status: &#10004;</li>
                                 </ul>
                                 <li><b>Assignment 2</b></li>
                                 <li><b>Assignment 3</b></li>
@@ -81,8 +97,31 @@
                             </ul>
                         </li>
                     </ul>
-                <li>DWM</li>
-                <li>CSS
+                </li>
+                <li id="dwmtt2">DWM
+                    <ul>
+                        <li> Test Live Details
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><b>Assignment 1</b> - <i><b>Naive Bayes & Decision Tree</b> Monday, &#9658;20th April 2020 - 3 PM</i> </li>
+                                        <li><b>Assignment 2</b></li>
+                                        <li><b>Assignment 3</b></li>
+                                        <li><b>Assignment 4</b></li>
+                                        <li><b>Assignment 5</b></li>
+                                    </ul>
+                                </li>
+                                <li>Instructions
+                                    <ul>
+                                        <li>TBA</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                    </ul>
+                </li>
+                <li id="csstt2">CSS
                     <ul>
                         <li> Test Live Details
                             <ul>
@@ -116,7 +155,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>SE</li>
+                <li id="sett2">SE</li>
             </ul>
             <hr>
         </div>
@@ -124,7 +163,7 @@
         <div>
             <h3><u>Term Work Assignment Notices</u></h3>
             <ul>
-                <li>ML
+                <li id="mlassign">ML
                     <ul>
                         <li><b>Assignment 1: </b>
                             <ul>
@@ -140,7 +179,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>SPCC
+                <li id="spccassign">SPCC
                     <ul>
                         <li><b>Assignment: </b>
                             <ul>
@@ -152,7 +191,7 @@
                         </li> 
                     </ul>  
                 </li>
-                <li>DWM
+                <li id="dwmassign">DWM
                     <ul>
                         <li>Warehousing 
                             <ul>
@@ -166,7 +205,7 @@
                                     <ul>
                                         <li>Submission Type: <i><a href="https://drive.google.com/drive/folders/0B0KXKfN-C7xLfnJoUTg2WExEbHF5X3IzLWpIak5RaWMtcUxMSUY4RUJuRWpBaTJtMlhtTTg" target="_blank">Upload On Drive Link [Click Here]</a></i></li>
                                         <li>File Format: <i>TE-A_600041xxxxx</i></li>
-                                        <li>Deadline: &#9658;<i>17th April 2020 [1:00 PM]</i></li>
+                                        <li>Deadline: <i>&#9658;17th April 2020 [1:00 PM]</i></li>
                                         <li>Status: &#10004;</li>
                                     </ul>
                                 </li> 
@@ -174,6 +213,13 @@
                         </li>
                         <li>Mining
                             <ul>
+                                <li><b>Assignment [Dummy]: </b>
+                                    <ul>
+                                        <li>Submission Type: <i>MS Teams Submission</i></li>
+                                        <li>Deadline: <i>&#9658;18th April 2020 [12:00 AM]</i></li>
+                                        <li>Status: Pending</li>
+                                    </ul>
+                                </li> 
                                 <li><b>Assignment 1: </b>
                                     <ul>
                                         <li>Submission Type: <i>Physical Classroom Submission</i></li>
@@ -190,7 +236,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>CSS
+                <li id="cssassign">CSS
                     <ul>
                         <li><b>Assignment 1: </b>
                             <ul>
@@ -207,7 +253,7 @@
                         </li> 
                     </ul>  
                 </li>
-                <li>SE</li>
+                <li id="seassign">SE</li>
             </ul>
             <hr>
         </div>
@@ -228,10 +274,14 @@
                         <li>ML - <b>6I9pj0i</b></li>
                         <li>DWM [Mining] - <b>idnqg3o</b></li>
                         <li>SPCC - <b>goejltq</b></li>
+                        <li>CSS - <b></b></li>
                     </ul>
                 </li>
             </ul>
             <hr>
         </div>
+
+        <!---->
+        <script src="script.js"></script>
     </body>
 </html>
